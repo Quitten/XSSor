@@ -282,7 +282,7 @@ class BurpExtender(IBurpExtender, ITab, IHttpListener, IMessageEditorController,
                     payload = self.payloadsModel.getElementAt(i)
                     self.checkXSS(messageInfo, urlStr, requestBody, payload)
             else:
-                self.checkXSS(messageInfo, urlStr, requestBody, self.basicPayload)
+                self.checkXSS(messageInfo, urlStr, requestBody, self.basicPayloadTxt.getText())
 
 
                 #
