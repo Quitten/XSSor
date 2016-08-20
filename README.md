@@ -1,5 +1,5 @@
 # XSSor
-XSSor is a semi-automatic reflected and persistent XSS detector extension for Burp Suite. The tool was written in Python by Barak Tawily, an application security expert at AppSec Labs. XSSor was designed to help security testers by performing semi-automatic reflected and persistent XSS detection tests.
+XSSor is a semi-automatic reflected and persistent XSS detector extension for Burp Suite. The tool was written in Python by Barak Tawily, an application security expert. XSSor was designed to help security testers by performing semi-automatic reflected and persistent XSS detection tests.
  
 ![alt tag](https://raw.githubusercontent.com/Quitten/XSSor/master/xssor.jpg)
  
@@ -36,5 +36,5 @@ In order to add affected pages, right-click on the request and click on ‘XSSor
 You can view the affected page response and the request containing the payload in the ‘affected pages’ tab under the XSSor tab.
 
 # Authors
-- Barak Tawily, application security expert at AppSec Labs
+- Barak Tawily, application security expert
  
