@@ -7,7 +7,7 @@ XSSor is a semi-automatic reflected and persistent XSS detector extension for Bu
 1.     Download Burp Suite (obviously): http://portswigger.net/burp/download.html
 2.     Download Jython Standalone JAR: http://www.jython.org/downloads.html
 3.     Open BurpàExtenderà Optionsà Python Environmentà Select Fileà Choose the Jython Standalone JAR
-4.     Install Autorize from the BApp Store or follow these steps:
+4.     To install XSSor follow these steps:
 a.     Download the XSSor.py file.
 b.     Open BurpàExtenderà Extensionsà Addà Choose XSSor.py file.
 c.     See the XSSor tab and enjoy semi-automatic reflected and persistent XSS detection J
